@@ -1,0 +1,44 @@
+2021-01-21 13:59:26.8280 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestTime", "RpcId" : 1, "Info" : "==>>请求当前时间！" }
+2021-01-21 14:00:41.8850 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestTime", "RpcId" : 1, "Info" : "==>>请求当前时间！" }
+2021-01-21 14:17:33.2364 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestTime", "RpcId" : 1, "Info" : "==>>请求当前时间！" }
+2021-01-21 14:17:41.7678 AllServer 0001 (Session.cs:142) { "_t" : "A0002_Login_C2R", "RpcId" : 2, "Account" : "123", "Password" : "123" }
+2021-01-21 14:17:41.7860 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 1, "CollectionName" : "AccountInfo", "Json" : "{Account:'123',Password:'123'}" }
+2021-01-21 14:17:41.9928 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101611109964"), "C" : [], "Account" : "123", "Password" : "123" }], "RpcId" : 1, "Error" : 0, "Message" : null }
+2021-01-21 14:17:42.0015 AllServer 0001 (Session.cs:142) { "_t" : "A0006_GetLoginKey_R2G", "RpcId" : 2, "UserID" : NumberLong("101611109964") }
+2021-01-21 14:17:42.0015 AllServer 0001 (Session.cs:142) { "_t" : "A0006_GetLoginKey_G2R", "RpcId" : 2, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("8137063726952747447") }
+2021-01-21 14:17:42.0302 AllServer 0001 (Session.cs:142) { "_t" : "A0003_LoginGate_C2G", "RpcId" : 3, "GateLoginKey" : NumberLong("8137063726952747447") }
+2021-01-21 14:17:42.0454 AllServer 0001 (Session.cs:142) { "_t" : "A0004_PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101611109964"), "GateAppID" : 1 }
+2021-01-21 14:17:42.0653 AllServer 0001 (Session.cs:142) { "_t" : "A1001_GetUserInfo_C2G", "RpcId" : 4 }
+2021-01-21 14:17:42.0653 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryRequest", "RpcId" : 3, "_id" : NumberLong("101611109964"), "NeedCache" : true, "CollectionName" : "UserInfo" }
+2021-01-21 14:17:42.1429 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryResponse", "RpcId" : 3, "Error" : 0, "Message" : null, "Component" : { "_t" : "UserInfo", "_id" : NumberLong("101611109964"), "C" : [], "UserName" : "123", "Level" : 1, "Money" : NumberLong(90000), "Phone" : NumberLong("13800000000"), "Email" : "example@sina.com", "Sex" : "Man", "Title" : "", "LastPlay" : 0 } }
+2021-01-21 14:17:53.3374 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestTime", "RpcId" : 1, "Info" : "==>>请求当前时间！" }
+2021-01-21 14:18:04.6961 AllServer 0001 (Session.cs:142) { "_t" : "A0002_Login_C2R", "RpcId" : 2, "Account" : "123", "Password" : "123" }
+2021-01-21 14:18:04.6961 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 4, "CollectionName" : "AccountInfo", "Json" : "{Account:'123',Password:'123'}" }
+2021-01-21 14:18:04.7072 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101611109964"), "C" : [], "Account" : "123", "Password" : "123" }], "RpcId" : 4, "Error" : 0, "Message" : null }
+2021-01-21 14:18:04.7072 AllServer 0001 (RealmHelper.cs:55) 玩家101611109964已在线 将执行踢下线操作
+2021-01-21 14:18:04.7251 AllServer 0001 (Session.cs:142) { "_t" : "A0007_KickOutPlayer_R2G", "RpcId" : 5, "UserID" : NumberLong("101611109964") }
+2021-01-21 14:18:04.7383 AllServer 0001 (Session.cs:142) { "_t" : "A0005_PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101611109964") }
+2021-01-21 14:18:04.7383 AllServer 0001 (Session.cs:142) { "_t" : "A0007_KickOutPlayer_G2R", "RpcId" : 5, "Error" : 0, "Message" : "" }
+2021-01-21 14:18:04.7563 AllServer 0001 (Session.cs:142) { "_t" : "A0006_GetLoginKey_R2G", "RpcId" : 6, "UserID" : NumberLong("101611109964") }
+2021-01-21 14:18:04.7563 AllServer 0001 (Session.cs:142) { "_t" : "A0006_GetLoginKey_G2R", "RpcId" : 6, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("4146823012455205208") }
+2021-01-21 14:18:04.7809 AllServer 0001 (Session.cs:142) { "_t" : "A0003_LoginGate_C2G", "RpcId" : 3, "GateLoginKey" : NumberLong("4146823012455205208") }
+2021-01-21 14:18:04.8136 AllServer 0001 (Session.cs:142) { "_t" : "A0004_PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101611109964"), "GateAppID" : 1 }
+2021-01-21 14:18:04.8338 AllServer 0001 (Session.cs:142) { "_t" : "A1001_GetUserInfo_C2G", "RpcId" : 4 }
+2021-01-21 14:18:04.8467 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryRequest", "RpcId" : 7, "_id" : NumberLong("101611109964"), "NeedCache" : true, "CollectionName" : "UserInfo" }
+2021-01-21 14:18:04.8467 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryResponse", "RpcId" : 7, "Error" : 0, "Message" : null, "Component" : { "_t" : "UserInfo", "_id" : NumberLong("101611109964"), "C" : [], "UserName" : "123", "Level" : 1, "Money" : NumberLong(90000), "Phone" : NumberLong("13800000000"), "Email" : "example@sina.com", "Sex" : "Man", "Title" : "", "LastPlay" : 0 } }
+2021-01-21 14:20:50.1131 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestTime", "RpcId" : 1, "Info" : "==>>请求当前时间！" }
+2021-01-21 14:20:53.5289 AllServer 0001 (Session.cs:142) { "_t" : "A0002_Login_C2R", "RpcId" : 2, "Account" : "123", "Password" : "123" }
+2021-01-21 14:20:53.5331 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 8, "CollectionName" : "AccountInfo", "Json" : "{Account:'123',Password:'123'}" }
+2021-01-21 14:20:53.5482 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101611109964"), "C" : [], "Account" : "123", "Password" : "123" }], "RpcId" : 8, "Error" : 0, "Message" : null }
+2021-01-21 14:20:53.5482 AllServer 0001 (RealmHelper.cs:55) 玩家101611109964已在线 将执行踢下线操作
+2021-01-21 14:20:53.5726 AllServer 0001 (Session.cs:142) { "_t" : "A0007_KickOutPlayer_R2G", "RpcId" : 9, "UserID" : NumberLong("101611109964") }
+2021-01-21 14:20:53.6017 AllServer 0001 (Session.cs:142) { "_t" : "A0005_PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101611109964") }
+2021-01-21 14:20:53.6125 AllServer 0001 (Session.cs:142) { "_t" : "A0007_KickOutPlayer_G2R", "RpcId" : 9, "Error" : 0, "Message" : "" }
+2021-01-21 14:20:53.6125 AllServer 0001 (Session.cs:142) { "_t" : "A0006_GetLoginKey_R2G", "RpcId" : 10, "UserID" : NumberLong("101611109964") }
+2021-01-21 14:20:53.6453 AllServer 0001 (Session.cs:142) { "_t" : "A0006_GetLoginKey_G2R", "RpcId" : 10, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("-152038680849044379") }
+2021-01-21 14:20:53.6931 AllServer 0001 (Session.cs:142) { "_t" : "A0003_LoginGate_C2G", "RpcId" : 3, "GateLoginKey" : NumberLong("-152038680849044379") }
+2021-01-21 14:20:53.6931 AllServer 0001 (Session.cs:142) { "_t" : "A0004_PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101611109964"), "GateAppID" : 1 }
+2021-01-21 14:20:53.7169 AllServer 0001 (Session.cs:142) { "_t" : "A1001_GetUserInfo_C2G", "RpcId" : 4 }
+2021-01-21 14:20:53.7201 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryRequest", "RpcId" : 11, "_id" : NumberLong("101611109964"), "NeedCache" : true, "CollectionName" : "UserInfo" }
+2021-01-21 14:20:53.7201 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryResponse", "RpcId" : 11, "Error" : 0, "Message" : null, "Component" : { "_t" : "UserInfo", "_id" : NumberLong("101611109964"), "C" : [], "UserName" : "123", "Level" : 1, "Money" : NumberLong(90000), "Phone" : NumberLong("13800000000"), "Email" : "example@sina.com", "Sex" : "Man", "Title" : "", "LastPlay" : 0 } }
+2021-01-21 15:08:39.5094 AllServer 0001 (Session.cs:142) { "_t" : "A0005_PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101611109964") }
