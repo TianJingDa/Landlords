@@ -71,6 +71,37 @@ namespace ETModel
 	[Message(HotfixOpcode.A0007_KickOutPlayer_G2R)]
 	public partial class A0007_KickOutPlayer_G2R : IResponse {}
 
+//==>匹配玩家并进入斗地主游戏房间 4月18
+//玩家信息
+	[Message(HotfixOpcode.GamerInfo)]
+	public partial class GamerInfo {}
+
+//返回大厅
+	[Message(HotfixOpcode.C2G_ReturnLobby_Ntt)]
+	public partial class C2G_ReturnLobby_Ntt : IMessage {}
+
+//斗地主匹配模块
+	[Message(HotfixOpcode.C2G_StartMatch_Req)]
+	public partial class C2G_StartMatch_Req : IRequest {}
+
+	[Message(HotfixOpcode.G2C_StartMatch_Back)]
+	public partial class G2C_StartMatch_Back : IResponse {}
+
+	[Message(HotfixOpcode.Actor_LandMatcherPlusOne_NTT)]
+	public partial class Actor_LandMatcherPlusOne_NTT : IActorMessage {}
+
+	[Message(HotfixOpcode.Actor_LandMatcherReduceOne_NTT)]
+	public partial class Actor_LandMatcherReduceOne_NTT : IActorMessage {}
+
+//进入房间(广播)
+	[Message(HotfixOpcode.Actor_GamerEnterRoom_Ntt)]
+	public partial class Actor_GamerEnterRoom_Ntt : IActorMessage {}
+
+//退出房间(广播)
+	[Message(HotfixOpcode.Actor_GamerExitRoom_Ntt)]
+	public partial class Actor_GamerExitRoom_Ntt : IActorMessage {}
+
+//匹配玩家并进入斗地主游戏房间 <==
 //ET----
 	[Message(HotfixOpcode.C2R_Login)]
 	public partial class C2R_Login : IRequest {}
@@ -131,17 +162,25 @@ namespace ETModel
 		 public const ushort A0005_PlayerOffline_G2R = 10016;
 		 public const ushort A0007_KickOutPlayer_R2G = 10017;
 		 public const ushort A0007_KickOutPlayer_G2R = 10018;
-		 public const ushort C2R_Login = 10019;
-		 public const ushort R2C_Login = 10020;
-		 public const ushort C2G_LoginGate = 10021;
-		 public const ushort G2C_LoginGate = 10022;
-		 public const ushort G2C_TestHotfixMessage = 10023;
-		 public const ushort C2M_TestActorRequest = 10024;
-		 public const ushort M2C_TestActorResponse = 10025;
-		 public const ushort PlayerInfo = 10026;
-		 public const ushort C2G_PlayerInfo = 10027;
-		 public const ushort G2C_PlayerInfo = 10028;
-		 public const ushort C2G_LoginGate_Req = 10029;
-		 public const ushort G2C_LoginGate_Back = 10030;
+		 public const ushort GamerInfo = 10019;
+		 public const ushort C2G_ReturnLobby_Ntt = 10020;
+		 public const ushort C2G_StartMatch_Req = 10021;
+		 public const ushort G2C_StartMatch_Back = 10022;
+		 public const ushort Actor_LandMatcherPlusOne_NTT = 10023;
+		 public const ushort Actor_LandMatcherReduceOne_NTT = 10024;
+		 public const ushort Actor_GamerEnterRoom_Ntt = 10025;
+		 public const ushort Actor_GamerExitRoom_Ntt = 10026;
+		 public const ushort C2R_Login = 10027;
+		 public const ushort R2C_Login = 10028;
+		 public const ushort C2G_LoginGate = 10029;
+		 public const ushort G2C_LoginGate = 10030;
+		 public const ushort G2C_TestHotfixMessage = 10031;
+		 public const ushort C2M_TestActorRequest = 10032;
+		 public const ushort M2C_TestActorResponse = 10033;
+		 public const ushort PlayerInfo = 10034;
+		 public const ushort C2G_PlayerInfo = 10035;
+		 public const ushort G2C_PlayerInfo = 10036;
+		 public const ushort C2G_LoginGate_Req = 10037;
+		 public const ushort G2C_LoginGate_Back = 10038;
 	}
 }
