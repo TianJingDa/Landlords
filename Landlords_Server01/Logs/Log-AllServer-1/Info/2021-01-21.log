@@ -9,3 +9,13 @@
 2021-01-21 14:20:53.6017 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611109964下线
 2021-01-21 15:08:39.5094 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611109964
 2021-01-21 15:08:39.5167 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611109964下线
+2021-01-21 15:27:34.0787 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-21 15:28:06.8949 AllServer 0001 (RealmHelper.cs:70) 它处登录，原登录踢下线《====
+2021-01-21 15:28:06.9126 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611109964
+2021-01-21 15:28:06.9316 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611109964下线
+2021-01-21 15:32:24.1749 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611109964
+2021-01-21 15:32:24.1749 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611109964下线
+2021-01-21 15:33:53.5794 AllServer 0001 (RealmHelper.cs:70) 它处登录，原登录踢下线《====
+2021-01-21 15:33:53.6014 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611109964
+2021-01-21 15:33:53.6123 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611109964下线
+2021-01-21 16:14:52.0001 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
