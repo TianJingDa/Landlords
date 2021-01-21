@@ -51,8 +51,9 @@ namespace ETEditor
 
 			if (isContainAB)
 			{
-				FileHelper.CleanDirectory("Assets/StreamingAssets/");
-				FileHelper.CopyDirectory(fold, "Assets/StreamingAssets/");
+                string resFolder = string.Format("../WebRes/{0}/StreamingAssets/", type);
+                FileHelper.CleanDirectory("Assets/StreamingAssets/");
+				FileHelper.CopyDirectory(resFolder, "Assets/StreamingAssets/");
 			}
 
 			if (isBuildExe)

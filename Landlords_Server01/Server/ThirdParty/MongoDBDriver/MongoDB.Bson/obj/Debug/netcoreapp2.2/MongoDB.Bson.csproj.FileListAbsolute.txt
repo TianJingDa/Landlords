@@ -39,3 +39,14 @@ F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\
 F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.dll
 F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.xml
 F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.pdb
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Bson.deps.json
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Bson.dll
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Bson.pdb
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Bson.xml
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.csprojAssemblyReference.cache
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.csproj.CoreCompileInputs.cache
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.AssemblyInfoInputs.cache
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.AssemblyInfo.cs
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.dll
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.xml
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.pdb

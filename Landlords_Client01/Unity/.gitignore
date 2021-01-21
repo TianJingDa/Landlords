@@ -3,3 +3,10 @@
 /Logs/
 /Temp/
 /obj/
+/Assembly-CSharp.csproj
+/ET.Core.csproj
+/Test.csproj
+/Unity.Editor.csproj
+/Unity.Model.csproj
+/Unity.ThirdParty.csproj
+/Unity.sln

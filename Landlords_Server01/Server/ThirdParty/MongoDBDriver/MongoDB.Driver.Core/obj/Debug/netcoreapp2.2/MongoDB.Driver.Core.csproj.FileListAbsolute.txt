@@ -44,3 +44,15 @@ F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\
 F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.dll
 F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.xml
 F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.pdb
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Driver.Core.deps.json
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Driver.Core.dll
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Driver.Core.pdb
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Driver.Core.xml
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.csprojAssemblyReference.cache
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.csproj.CoreCompileInputs.cache
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.AssemblyInfoInputs.cache
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.AssemblyInfo.cs
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.csproj.CopyComplete
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.dll
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.xml
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.pdb

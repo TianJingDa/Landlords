@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\WorkSpace\\ETFramework\\Landlords\\Landlords_Server01\\Landlords_Server01\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
+      "projectUniqueName": "F:\\WorkSpace\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
       "projectName": "KcpLib",
-      "projectPath": "F:\\WorkSpace\\ETFramework\\Landlords\\Landlords_Server01\\Landlords_Server01\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
+      "projectPath": "F:\\WorkSpace\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\WorkSpace\\ETFramework\\Landlords\\Landlords_Server01\\Landlords_Server01\\Server\\ThirdParty\\KcpLib\\obj\\",
+      "outputPath": "F:\\WorkSpace\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\KcpLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

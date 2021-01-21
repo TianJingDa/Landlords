@@ -132,9 +132,15 @@ namespace ETModel
 			}
 			else
 			{
-				dependencies = ResourcesComponent.AssetBundleManifestObject.GetAllDependencies(assetBundleName);
-			}
-			DependenciesCache.Add(assetBundleName, dependencies);
+                if(ResourcesComponent.AssetBundleManifestObject == null)
+                {
+                    Game.Scene.GetComponent<ResourcesComponent>().LoadOneBundle("StreamingAssets");
+                    ResourcesComponent.AssetBundleManifestObject = (AssetBundleManifest)Game.Scene.GetComponent<ResourcesComponent>().GetAsset("StreamingAssets", "AssetBundleManifest");
+                }
+
+                dependencies = ResourcesComponent.AssetBundleManifestObject.GetAllDependencies(assetBundleName);
+            }
+            DependenciesCache.Add(assetBundleName, dependencies);
 			return dependencies;
 		}
 

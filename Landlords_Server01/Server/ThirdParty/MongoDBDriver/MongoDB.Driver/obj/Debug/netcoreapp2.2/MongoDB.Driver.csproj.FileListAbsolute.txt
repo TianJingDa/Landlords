@@ -44,3 +44,15 @@ F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\
 F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.dll
 F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.xml
 F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.pdb
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Driver.deps.json
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Driver.dll
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Driver.pdb
+F:\WorkSpace\Landlords\Landlords_Server01\Bin\netcoreapp2.2\MongoDB.Driver.xml
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.csprojAssemblyReference.cache
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.csproj.CoreCompileInputs.cache
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.AssemblyInfoInputs.cache
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.AssemblyInfo.cs
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.csproj.CopyComplete
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.dll
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.xml
+F:\WorkSpace\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.pdb
