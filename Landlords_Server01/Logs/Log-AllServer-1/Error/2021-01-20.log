@@ -1,0 +1,117 @@
+2021-01-20 10:32:48.2373 AllServer 0001 System.NullReferenceException: Object reference not set to an instance of an object.
+   at ETHotfix.A0006_GetLoginKey.Run(Session session, A0006_GetLoginKey_R2G request, A0006_GetLoginKey_G2R response, Action reply) in F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A0006_GetLoginKey.cs:line 14 
+ Handle at offset 504 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 308 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 242 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A0006_GetLoginKey.cs:14:17
+ReplyError at offset 75 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:9:4
+Error at offset 124 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-20 10:32:48.2672 AllServer 0001 System.Exception: Rpc Error: ETModel.A0006_GetLoginKey_R2G 102001
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 254
+   at ETHotfix.A0002_LoginHandler.Run(Session session, A0002_Login_C2R request, A0002_Login_R2C response, Action reply) in F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A0002_LoginHandler.cs:line 45 
+ RunMessage at offset 517 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:179:4
+<Call>b__0 at offset 340 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:233:6
+SetException at offset 71 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\ETTaskCompletionSource.cs:212:13
+TrySetException at offset 148 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\ETTaskCompletionSource.cs:245:13
+TryInvokeContinuation at offset 110 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\ETTaskCompletionSource.cs:196:13
+Run at offset 73 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\MoveNextRunner.cs:12:13
+MoveNext at offset 2171 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A0002_LoginHandler.cs:45:17
+ReplyError at offset 75 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:9:4
+Error at offset 124 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-20 14:01:12.1024 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 308 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-20 14:05:00.1877 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 308 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-20 14:07:16.7915 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 308 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-20 14:10:45.4392 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 308 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-20 14:15:49.4750 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 308 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-20 15:21:23.5080 AllServer 0001 消息没有处理: 10011 { "_t" : "A1001_GetUserInfo_C2G", "RpcId" : 4 } 
+ OnRead at offset 70 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 273 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3853 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-20 17:04:24.5990 AllServer 0001 System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Google.Protobuf.ProtoPreconditions.CheckNotNull[T](T value, String name) in F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ThirdParty\Google.Protobuf\ProtoPreconditions.cs:line 57
+   at ETModel.A1001_GetUserInfo_G2C.set_Email(String value) in F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\HotfixMessage.cs:line 1019
+   at ETHotfix.A1001_GetUserInfo_Handler.Run(Session session, A1001_GetUserInfo_C2G request, A1001_GetUserInfo_G2C response, Action reply) in F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A1001_GetUserInfo_Handler.cs:line 31 
+ SetExistingTaskResult at offset 97 in file:line:column <filename unknown>:0:0
+TrySetResult at offset 145 in file:line:column <filename unknown>:0:0
+RunContinuations at offset 439 in file:line:column <filename unknown>:0:0
+RunCallback at offset 71 in file:line:column <filename unknown>:0:0
+<OutputWaitEtwEvents>b__12_0 at offset 323 in file:line:column <filename unknown>:0:0
+Run at offset 61 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Async\MoveNextRunner.cs:12:13
+MoveNext at offset 1112 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\Handler\A1001_GetUserInfo_Handler.cs:31:17
+ReplyError at offset 69 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:9:4
+Error at offset 112 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 58 in file:line:column F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+

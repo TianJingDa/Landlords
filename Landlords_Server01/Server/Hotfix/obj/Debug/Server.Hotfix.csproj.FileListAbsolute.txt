@@ -1,0 +1,12 @@
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Bin\libkcp.dylib
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Bin\libkcp.so
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Bin\Hotfix.deps.json
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Bin\Hotfix.dll
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Bin\Hotfix.pdb
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.csprojAssemblyReference.cache
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CoreCompileInputs.cache
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.AssemblyInfoInputs.cache
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.AssemblyInfo.cs
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CopyComplete
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\obj\Debug\Hotfix.dll
+F:\WorkSpace\ETFramework\Landlords\Landlords_Server01\Landlords_Server01\Server\Hotfix\obj\Debug\Hotfix.pdb
