@@ -6,9 +6,9 @@ namespace ETModel
     public static partial class LandUIType
     {
         public const string LandLogin = "LandLogin";
-
         public const string LandLobby = "LandLobby";
         public const string SetUserInfo = "SetUserInfo";
+        public const string LandRoom = "LandRoom";
     }
 
     public static partial class UIEventType
