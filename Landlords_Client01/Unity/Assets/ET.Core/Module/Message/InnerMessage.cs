@@ -27,6 +27,16 @@ namespace ETModel
 
 	}
 
+//Gate通知Map玩家离开房间
+	[Message(InnerOpcode.Actor_PlayerExitRoom_G2M)]
+	public partial class Actor_PlayerExitRoom_G2M: IActorMessage
+	{
+		public int RpcId { get; set; }
+
+		public long ActorId { get; set; }
+
+	}
+
 //匹配玩家并进入斗地主游戏房间 <==
 /// <summary>
 /// ET
