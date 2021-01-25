@@ -102,6 +102,10 @@ namespace ETModel
 	public partial class Actor_GamerExitRoom_Ntt : IActorMessage {}
 
 //匹配玩家并进入斗地主游戏房间 <==
+//准备游戏消息
+	[Message(HotfixOpcode.Actor_GamerReady_Landlords)]
+	public partial class Actor_GamerReady_Landlords : IActorMessage {}
+
 //ET----
 	[Message(HotfixOpcode.C2R_Login)]
 	public partial class C2R_Login : IRequest {}
@@ -170,17 +174,18 @@ namespace ETModel
 		 public const ushort Actor_LandMatcherReduceOne_NTT = 10024;
 		 public const ushort Actor_GamerEnterRoom_Ntt = 10025;
 		 public const ushort Actor_GamerExitRoom_Ntt = 10026;
-		 public const ushort C2R_Login = 10027;
-		 public const ushort R2C_Login = 10028;
-		 public const ushort C2G_LoginGate = 10029;
-		 public const ushort G2C_LoginGate = 10030;
-		 public const ushort G2C_TestHotfixMessage = 10031;
-		 public const ushort C2M_TestActorRequest = 10032;
-		 public const ushort M2C_TestActorResponse = 10033;
-		 public const ushort PlayerInfo = 10034;
-		 public const ushort C2G_PlayerInfo = 10035;
-		 public const ushort G2C_PlayerInfo = 10036;
-		 public const ushort C2G_LoginGate_Req = 10037;
-		 public const ushort G2C_LoginGate_Back = 10038;
+		 public const ushort Actor_GamerReady_Landlords = 10027;
+		 public const ushort C2R_Login = 10028;
+		 public const ushort R2C_Login = 10029;
+		 public const ushort C2G_LoginGate = 10030;
+		 public const ushort G2C_LoginGate = 10031;
+		 public const ushort G2C_TestHotfixMessage = 10032;
+		 public const ushort C2M_TestActorRequest = 10033;
+		 public const ushort M2C_TestActorResponse = 10034;
+		 public const ushort PlayerInfo = 10035;
+		 public const ushort C2G_PlayerInfo = 10036;
+		 public const ushort G2C_PlayerInfo = 10037;
+		 public const ushort C2G_LoginGate_Req = 10038;
+		 public const ushort G2C_LoginGate_Back = 10039;
 	}
 }
