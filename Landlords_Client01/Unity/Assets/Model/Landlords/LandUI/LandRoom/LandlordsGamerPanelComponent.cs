@@ -125,5 +125,13 @@ namespace ETModel
             //重置玩家UI
             ResetPanel();
         }
+
+        /// <summary>
+        /// 出牌错误
+        /// </summary>
+        public void SetPlayCardsError()
+        {
+            prompt.text = "您出的牌不符合规则！";
+        }
     }
 }
