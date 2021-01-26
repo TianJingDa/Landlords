@@ -117,8 +117,8 @@ namespace ETHotfix
                 }
 
                 //添加玩家信息
-                //GamerInfo info = new GamerInfo() { UserID = _gamer.UserID, IsReady = room.IsGamerReady(gamer) };
-                GamerInfo info = new GamerInfo() { UserID = _gamer.UserID };
+                GamerInfo info = new GamerInfo() { UserID = _gamer.UserID, IsReady = room.IsGamerReady(_gamer) ? 1 : 0 };
+                //GamerInfo info = new GamerInfo() { UserID = _gamer.UserID };
                 broadcastMessage.Gamers.Add(info);
             }
             //广播房间内玩家消息 每次有人进入房间都会收到一次广播

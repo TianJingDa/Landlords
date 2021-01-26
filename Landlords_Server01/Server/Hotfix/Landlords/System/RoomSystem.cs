@@ -38,7 +38,7 @@ namespace ETHotfix
             Match.FreeLandlordsRooms.Remove(self.Id);
             Match.GamingLandlordsRooms.Add(self.Id, self);
 
-            //更该玩家状态
+            //更改玩家状态
             for (int i = 0; i < self.gamers.Length; i++)
             {
                 Gamer gamer = self.gamers[i];
@@ -47,10 +47,18 @@ namespace ETHotfix
             }
 
             //添加开始斗地主游戏需要的组件
-            //...
+            //牌库组件
+            self.AddComponent<DeckComponent>();
+            //游戏控制组件
+            self.AddComponent<GameControllerComponent, RoomConfig>(GateHelper.GetLandlordsConfig(RoomLevel.Lv100));
+
+            //手牌缓存组件
+            //self.AddComponent<DeskCardsCacheComponent>();
+            //出牌控制组件
+            //self.AddComponent<OrderControllerComponent>();
 
             //开始游戏
-            //self.GetComponent<GameControllerComponent>().StartGame();
+            self.GetComponent<GameControllerComponent>().StartGame();
         }
 
         /// <summary>
@@ -106,7 +114,7 @@ namespace ETHotfix
         public static bool IsGamerReady(this Room self, Gamer gamer)
         {
             int seatIndex = self.GetGamerSeat(gamer.UserID);
-            if (seatIndex > 0)
+            if (seatIndex >= 0)
             {
                 return self.isReadys[seatIndex];
             }
