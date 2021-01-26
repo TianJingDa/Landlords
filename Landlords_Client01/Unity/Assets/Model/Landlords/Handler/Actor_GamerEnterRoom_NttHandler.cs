@@ -6,7 +6,7 @@ namespace ETModel
     [MessageHandler]
     public class Actor_GamerEnterRoom_NttHandler : AMHandler<Actor_GamerEnterRoom_Ntt>
     {
-        protected override async ETTask Run(ETModel.Session session, Actor_GamerEnterRoom_Ntt message)
+        protected override async ETTask Run(Session session, Actor_GamerEnterRoom_Ntt message)
         {
             UI uiRoom = Game.Scene.GetComponent<UIComponent>().Get(LandUIType.LandRoom);
             LandRoomComponent landRoomComponent = uiRoom.GetComponent<LandRoomComponent>();
@@ -53,6 +53,8 @@ namespace ETModel
                         //玩家在本地玩家左边0号位
                         landRoomComponent.AddGamer(gamer, 0);
                     }
+
+                    gamer.GetComponent<LandlordsGamerPanelComponent>().SetReady(gamerInfo.IsReady == 1);
                 }
             }
 

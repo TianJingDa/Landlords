@@ -13,7 +13,7 @@ namespace ETModel
             UI uiRoom = Game.Scene.GetComponent<UIComponent>().Get(LandUIType.LandRoom);
             LandRoomComponent room = uiRoom.GetComponent<LandRoomComponent>();
             Gamer gamer = room.GetGamer(message.UserID);
-            gamer.GetComponent<LandlordsGamerPanelComponent>().SetReady();
+            gamer.GetComponent<LandlordsGamerPanelComponent>().SetReady(true);
 
             //本地玩家准备,隐藏准备按钮
             if (gamer.UserID == LandRoomComponent.LocalGamer.UserID)

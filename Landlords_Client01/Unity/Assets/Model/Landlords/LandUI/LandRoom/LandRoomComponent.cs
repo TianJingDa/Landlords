@@ -27,6 +27,7 @@ namespace ETModel
         public static Gamer LocalGamer { get; private set; }
 
         public Text prompt;
+        private Text multiples;
 
         public void Awake()
         {
@@ -35,6 +36,7 @@ namespace ETModel
             GameObject quitButton = rc.Get<GameObject>("Quit");
             GameObject readyButton = rc.Get<GameObject>("Ready");
             prompt = rc.Get<GameObject>("MatchPrompt").GetComponent<Text>();
+            multiples = rc.Get<GameObject>("Multiples").GetComponent<Text>();
 
             readyButton.SetActive(false); //默认隐藏
             Matching = true; //进入房间后取消匹配状态
@@ -136,6 +138,18 @@ namespace ETModel
                     gamers[i] = null;
                 }
             }
+        }
+
+        public void SetMultiples(int multiples)
+        {
+            this.multiples.gameObject.SetActive(true);
+            this.multiples.text = multiples.ToString();
+        }
+
+        public void ResetMultiples()
+        {
+            this.multiples.gameObject.SetActive(false);
+            this.multiples.text = "1";
         }
     }
 }

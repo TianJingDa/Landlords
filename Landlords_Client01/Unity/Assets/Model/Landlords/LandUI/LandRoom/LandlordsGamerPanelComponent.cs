@@ -53,9 +53,16 @@ namespace ETModel
         /// <summary>
         /// 玩家准备
         /// </summary>
-        public void SetReady()
+        public void SetReady(bool isReady)
         {
-            prompt.text = "准备！";
+            if (isReady)
+            {
+                prompt.text = "准备！";
+            }
+            else
+            {
+                prompt.text = "";
+            }
         }
 
         /// <summary>

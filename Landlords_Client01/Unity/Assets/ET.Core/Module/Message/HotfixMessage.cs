@@ -1858,10 +1858,25 @@ namespace ETModel {
       }
     }
 
+    private int isReady_;
+    /// <summary>
+    ///是否准备
+    /// </summary>
+    public int IsReady {
+      get { return isReady_; }
+      set {
+        isReady_ = value;
+      }
+    }
+
     public void WriteTo(pb::CodedOutputStream output) {
       if (UserID != 0L) {
         output.WriteRawTag(8);
         output.WriteInt64(UserID);
+      }
+      if (IsReady != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(IsReady);
       }
     }
 
@@ -1870,11 +1885,15 @@ namespace ETModel {
       if (UserID != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserID);
       }
+      if (IsReady != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(IsReady);
+      }
       return size;
     }
 
     public void MergeFrom(pb::CodedInputStream input) {
       userID_ = 0;
+      isReady_ = 0;
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -1883,6 +1902,10 @@ namespace ETModel {
             break;
           case 8: {
             UserID = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            IsReady = input.ReadInt32();
             break;
           }
         }

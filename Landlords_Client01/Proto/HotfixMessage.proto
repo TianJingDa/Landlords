@@ -151,6 +151,7 @@ message	A0007_KickOutPlayer_G2R // IResponse
 message GamerInfo
 {
 	int64 UserID = 1; //玩家ID
+	int32 IsReady = 2; //是否准备
 }
 //返回大厅
 message C2G_ReturnLobby_Ntt // IMessage
