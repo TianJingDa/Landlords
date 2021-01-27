@@ -106,6 +106,15 @@ namespace ETModel
 	[Message(HotfixOpcode.Actor_GamerReady_Landlords)]
 	public partial class Actor_GamerReady_Landlords : IActorMessage {}
 
+	[Message(HotfixOpcode.GamerScore)]
+	public partial class GamerScore {}
+
+	[Message(HotfixOpcode.Actor_Gameover_Ntt)]
+	public partial class Actor_Gameover_Ntt : IActorMessage {}
+
+	[Message(HotfixOpcode.Actor_GamerMoneyLess_Ntt)]
+	public partial class Actor_GamerMoneyLess_Ntt : IActorMessage {}
+
 //ET----
 	[Message(HotfixOpcode.C2R_Login)]
 	public partial class C2R_Login : IRequest {}
@@ -175,17 +184,20 @@ namespace ETModel
 		 public const ushort Actor_GamerEnterRoom_Ntt = 10025;
 		 public const ushort Actor_GamerExitRoom_Ntt = 10026;
 		 public const ushort Actor_GamerReady_Landlords = 10027;
-		 public const ushort C2R_Login = 10028;
-		 public const ushort R2C_Login = 10029;
-		 public const ushort C2G_LoginGate = 10030;
-		 public const ushort G2C_LoginGate = 10031;
-		 public const ushort G2C_TestHotfixMessage = 10032;
-		 public const ushort C2M_TestActorRequest = 10033;
-		 public const ushort M2C_TestActorResponse = 10034;
-		 public const ushort PlayerInfo = 10035;
-		 public const ushort C2G_PlayerInfo = 10036;
-		 public const ushort G2C_PlayerInfo = 10037;
-		 public const ushort C2G_LoginGate_Req = 10038;
-		 public const ushort G2C_LoginGate_Back = 10039;
+		 public const ushort GamerScore = 10028;
+		 public const ushort Actor_Gameover_Ntt = 10029;
+		 public const ushort Actor_GamerMoneyLess_Ntt = 10030;
+		 public const ushort C2R_Login = 10031;
+		 public const ushort R2C_Login = 10032;
+		 public const ushort C2G_LoginGate = 10033;
+		 public const ushort G2C_LoginGate = 10034;
+		 public const ushort G2C_TestHotfixMessage = 10035;
+		 public const ushort C2M_TestActorRequest = 10036;
+		 public const ushort M2C_TestActorResponse = 10037;
+		 public const ushort PlayerInfo = 10038;
+		 public const ushort C2G_PlayerInfo = 10039;
+		 public const ushort G2C_PlayerInfo = 10040;
+		 public const ushort C2G_LoginGate_Req = 10041;
+		 public const ushort G2C_LoginGate_Back = 10042;
 	}
 }

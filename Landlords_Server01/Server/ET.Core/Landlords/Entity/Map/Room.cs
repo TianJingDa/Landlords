@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace ETModel
 {
@@ -43,6 +44,9 @@ namespace ETModel
         /// 房间中玩家的数量
         /// </summary>
         public int Count { get { return seats.Values.Count; } }
+
+        //清房间waiting的cts
+        public CancellationTokenSource CancellationTokenSource;
 
         //暂用地主牌属性
         //public readonly List<Card> LordCards = new List<Card>();
