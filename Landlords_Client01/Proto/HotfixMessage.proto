@@ -227,6 +227,11 @@ message Actor_GamerMoneyLess_Ntt // IActorMessage
 	int64 ActorId = 93;
     int64 UserID = 1;
 }
+message Actor_GamerContinue_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 93;
+}
 
 //ET----
 message C2R_Login // IRequest

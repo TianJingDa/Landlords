@@ -230,6 +230,9 @@ namespace ETHotfix
             Room room = self.GetParent<Room>();
             OrderControllerComponent orderController = room.GetComponent<OrderControllerComponent>();
 
+            //测试游戏结束
+            //lastGamer.GetComponent<HandCardsComponent>().library.Clear();
+
             //是否结束,当前出牌者手牌数为0时游戏结束
             bool isEnd = lastGamer.GetComponent<HandCardsComponent>().CardsCount == 0;
             if (isEnd)
