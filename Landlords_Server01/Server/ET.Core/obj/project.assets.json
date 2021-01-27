@@ -6509,7 +6509,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Darling\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -6518,14 +6518,14 @@
       "projectUniqueName": "F:\\WorkSpace\\Landlords\\Landlords_Server01\\Server\\ET.Core\\Server.ET.Core.csproj",
       "projectName": "ET.Core",
       "projectPath": "F:\\WorkSpace\\Landlords\\Landlords_Server01\\Server\\ET.Core\\Server.ET.Core.csproj",
-      "packagesPath": "C:\\Users\\Darling\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "F:\\WorkSpace\\Landlords\\Landlords_Server01\\Server\\ET.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Darling\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

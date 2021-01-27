@@ -133,5 +133,33 @@ namespace ETModel
         {
             prompt.text = "您出的牌不符合规则！";
         }
+
+        /// <summary>
+        /// 玩家抢地主
+        /// </summary>
+        public void SetGrab(bool isGrab)
+        {
+            if (isGrab)
+            {
+                prompt.text = "抢地主";
+            }
+            else
+            {
+                prompt.text = "不抢";
+            }
+        }
+        /// <summary>
+        /// 设置玩家身份
+        /// </summary>
+        public void SetIdentity(Identity identity)
+        {
+            if (identity == Identity.None)
+                return;
+
+            string spriteName = $"Identity_{Enum.GetName(typeof(Identity), identity)}";
+            Sprite headSprite = CardHelper.GetCardSprite(spriteName);
+            headPhoto.sprite = headSprite;
+            headPhoto.gameObject.SetActive(true);
+        }
     }
 }

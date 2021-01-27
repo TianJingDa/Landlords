@@ -59,9 +59,9 @@ namespace ETModel
                 return;
             }
 
-            base.Dispose();
-
             Game.Scene.GetComponent<ResourcesComponent>()?.UnloadBundle($"{LandUIType.LandInteraction}.unity3d");
+
+            base.Dispose();
         }
 
 
